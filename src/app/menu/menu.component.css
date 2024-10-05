@@ -1,0 +1,30 @@
+.menu-container {
+    padding: 20px;
+}
+
+.dish-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.dish-card {
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 10px; 
+    text-align: center; 
+    width: 200px; 
+}
+
+.dish-card button {
+    background-color: #28a745; 
+    color: white;
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.dish-card button:hover {
+    background-color: #218838; 
+}
