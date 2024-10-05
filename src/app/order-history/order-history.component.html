@@ -1,0 +1,6 @@
+<!-- src/app/order-history/order-history.component.html -->
+<div *ngFor="let dish of orderHistory">
+    <h3>{{ dish.name }} - {{ dish.price | currency }} (Qty: {{ dish.quantity }})</h3>
+    <p>{{ dish.description }}</p> <!-- Optional: Display dish description -->
+  </div>
+  
